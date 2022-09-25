@@ -9,6 +9,8 @@ public class SwappingElements {
         }
 
 
+        System.out.println("============AFTER SWAPPING===============");
+
         int first_arrayElement = elements[0];
         int last_arrayElement = elements[4];
 
