@@ -10,3 +10,8 @@ public class ExercieOne {
         }
     }
 }
+
+/*
+* For this exercise, you need to write a while loop that
+* prints the numbers 1 through 10, inclusively each on a separate line.
+* */
