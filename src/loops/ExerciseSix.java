@@ -7,5 +7,6 @@ public class ExerciseSix {
         for(int i=0; i<cities.length; i++){
             System.out.println("[CITY]-->" + cities[i]);
         }
+
     }
 }
