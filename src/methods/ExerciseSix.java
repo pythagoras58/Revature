@@ -7,7 +7,10 @@ public class ExerciseSix {
         int c = 3;
         int d = 1;
         var display = new ExerciseSix().squred(a,b,c,d);
-        System.out.println(display);
+
+        for(int i=0; i < display.length; i++) {
+            System.out.println(display[i]);
+        }
     }
 
     public double[] squred(int _one, int _two, int _three, int _four){
