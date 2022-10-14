@@ -55,8 +55,8 @@ public class MergeSort {
         char[] firstPart = new char[data.length / 2];
         char[] secondPart = new char[data.length - data.length/2];
 
-        System.out.println("[FIRST PART]--> " + firstPart);
-        System.out.println("[SECOND PART]--> " + secondPart);
+        System.out.println("[FIRST PART]--> " + firstPart.length);
+        System.out.println("[SECOND PART]--> " + secondPart.length);
 
         // first array
         for(int i=0; i< firstPart.length; i++){
