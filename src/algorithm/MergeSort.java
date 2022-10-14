@@ -43,4 +43,32 @@ public class MergeSort {
 
         return result;
     }
+
+    public static int findLetterFromMiddle(char target, char[] data){
+        if(data == null){
+            System.out.println("DATA IS NULL");
+            return -1;
+        }
+
+        //data spliting
+        char[] firstPart = new char[data.length / 2];
+        char[] secondPart = new char[data.length - data.length/2];
+
+        System.out.println("[FIRST PART]--> " + firstPart);
+        System.out.println("[SECOND PART]--> " + secondPart);
+
+        // first array
+        for(int i=0; i< firstPart.length; i++){
+            firstPart[i] = data[i];
+        }
+
+        // second array
+        for(int i =0; i < secondPart.length; i++){
+            secondPart[i] = data[i];
+        }
+
+        // perform searching
+        int firstRes = findIndx(target, firstPart);
+
+    }
 }
