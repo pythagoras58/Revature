@@ -69,6 +69,15 @@ public class MergeSort {
 
         // perform searching
         int firstRes = findIndx(target, firstPart);
+        int secondRes = findIndexBackwards(target, secondPart);
+
+        //comparison
+        if(firstRes > -1)
+            return firstRes;
+        else if (secondRes > -1)
+            return secondRes + firstPart.length;
+        else
+            return -1;
 
     }
 }
