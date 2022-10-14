@@ -7,7 +7,7 @@ public class LinearSearch {
         char[] letters = {'a','b','c','d','e','f', 'g', 'h', 'i', 'j', 'k',
                 'l', 'm', 'n', 'o', 'p', 'q', 'r','s', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 
-        char letter = 'm';
+        char letter = '0';
 
         // method calling
         System.out.println(findLetter(letter, letters));
@@ -15,6 +15,9 @@ public class LinearSearch {
 
     public static int findLetter(char targert, char[] data){
         int results = -1;
+        if(data == null){
+            return -1;
+        }
 
         for(int i=0; i<data.length; i++){
             char temp = data[i];
