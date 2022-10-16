@@ -2,7 +2,7 @@ package algorithm;
 
 public class Recursion {
     public static void main(String[] args) {
-        int input = 5;
+        int input = 3;
 
         System.out.println(factorial(input));
 
@@ -13,7 +13,6 @@ public class Recursion {
             return 0;
         if(num == 1)
             return 1;
-        return num * factorial(num);
-
+        return num * factorial(num - 1);
     }
 }
