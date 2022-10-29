@@ -7,6 +7,7 @@ public class ExerciseTwo {
         Scanner scanner = new Scanner(System.in);
         System.out.println("ENTER SOMETHING");
         String line = scanner.nextLine();
+        scanner.close();
         System.out.println("YOU ENTERED : " + line);
     }
 }
