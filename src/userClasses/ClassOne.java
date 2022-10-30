@@ -12,7 +12,4 @@ public class ClassOne {
         this.objectId = objectId;
     }
 
-    public static void main(String[] args) {
-
-    }
 }
