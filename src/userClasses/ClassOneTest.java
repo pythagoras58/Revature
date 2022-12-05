@@ -5,5 +5,6 @@ public class ClassOneTest {
         ClassOne classOne = new ClassOne();
         classOne.setObjectId(23);
         System.out.println(classOne.getObjectId());
+        System.out.println(classOne.getObjectId());
     }
 }
