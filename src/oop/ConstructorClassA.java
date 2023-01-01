@@ -8,5 +8,6 @@ public class ConstructorClassA {
 
     public static void main(String[] args) {
         ConstructorClassA A = new ConstructorClassA();
+        System.out.println("HELLO");
     }
 }
