@@ -15,6 +15,6 @@ public class Thermometer {
     Random r = new Random();
 
     public int getTemperature(){
-        return r.nextInt(ceil - base);
+        return r.nextInt(ceil - base) + base;
     }
 }
