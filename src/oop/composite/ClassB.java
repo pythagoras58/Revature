@@ -5,6 +5,6 @@ public class ClassB {
     ClassA A = new ClassA();
 
     public static void main(String[] args) {
-
+        ClassB B = new ClassB();
     }
 }
