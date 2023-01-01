@@ -6,5 +6,7 @@ public class ClassB {
 
     public static void main(String[] args) {
         ClassB B = new ClassB();
+        B.A.setName("Anne Marie");
+        System.out.println(B.A.getName());
     }
 }
