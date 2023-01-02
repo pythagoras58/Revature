@@ -11,8 +11,14 @@ public class WeatherMachine {
     that returns an array of 24 temperatures (just create a loop to call getTemperature 24 times).
      */
 
+    public String city = "Koforidua";
+
     public WeatherMachine(){
         thermometer = new Thermometer();
+    }
+
+    public WeatherMachine(String city){
+        this.city = city;
     }
 
     private double[] getPastTemperatures(){
@@ -30,6 +36,7 @@ public class WeatherMachine {
         double[] temps = getPastTemperatures();
 
         for(int i = 0; i < temps.length; i++) {
+            System.out.println("Current Location ->" + city);
             System.out.println(i + ":00 " + temps[i] + " degrees");
         }
     }
