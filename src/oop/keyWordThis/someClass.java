@@ -15,4 +15,9 @@ public class someClass {
 
         System.out.println("Parameterized constructor");
     }
+
+    public static void main(String[] args) {
+        someClass someClass = new someClass();
+
+    }
 }
