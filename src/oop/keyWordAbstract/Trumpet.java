@@ -5,4 +5,8 @@ public class Trumpet extends Instrument{
     public void makeSound() {
         System.out.println("Say my name again");
     }
+
+    public static void main(String[] args) {
+
+    }
 }
