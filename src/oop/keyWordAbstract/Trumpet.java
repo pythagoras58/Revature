@@ -7,6 +7,8 @@ public class Trumpet extends Instrument{
     }
 
     public static void main(String[] args) {
+        Trumpet trumpet = new Trumpet();
 
+        trumpet.makeSound();
     }
 }
