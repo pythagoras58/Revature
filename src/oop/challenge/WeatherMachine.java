@@ -11,7 +11,7 @@ public class WeatherMachine {
     that returns an array of 24 temperatures (just create a loop to call getTemperature 24 times).
      */
 
-    public String city = "Koforidua";
+    public String city = "Nanjing";
 
     public WeatherMachine(){
         thermometer = new Thermometer();
