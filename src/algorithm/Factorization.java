@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Factorization {
     public static void main(String[] args) {
         int number;
-        int[] factors = {};
+        ArrayList<Integer> factors = new ArrayList<>();
         // accept the number from the user
         Scanner scan = new Scanner(System.in);
 
@@ -17,8 +17,9 @@ public class Factorization {
             // If number is divided by i :: i becomes the factor
 
             if(number % i == 0){
+                factors.add(i);
 
-                System.out.println("The factors of :" + number + " is: " + i);
+                System.out.println("The factors of :" + number + " is: " + factors);
             }
         }
     }
